@@ -37,7 +37,11 @@ fun HomeScreen() {
     ) {
         Column {
             GreetingSection()
-            ChipSection(chips = listOf("Sweet sleep", "Lunch time", "Study", "Basketball"))
+            ChipSection(chips = listOf("Sweet sleep",
+                "Lunch time",
+                "Study",
+                "Basketball",
+                "Table Tannins"))
             CurrentMeditation()
             FeatureSection(features = listOf(
                 Feature(
@@ -170,7 +174,6 @@ fun CurrentMeditation(
 }
 
 //*** Features Section.
-
 
 
 @OptIn(ExperimentalFoundationApi::class)
