@@ -1,7 +1,7 @@
 package com.phoenixdeveloper.meditionui
 
-import android.graphics.Color
 import androidx.annotation.DrawableRes
+import androidx.compose.ui.graphics.Color
 
 data class Feature(
     val title: String,
